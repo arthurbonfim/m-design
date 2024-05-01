@@ -1,0 +1,18 @@
+.footer {
+    padding: 75px 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer__logo-img {
+    width: 50px;
+    margin-bottom: 2rem;
+}
+
+.footer__links img {
+    width: 35px;
+    margin: 2rem 5px;
+}

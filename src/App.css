@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@layer base {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+    }
+
+    /*light mode styles*/
+    .light-mode .sec {
+        background-color: #fff;
+        color: #8a8fa3;
+    }
+    .light-mode .alt-sec{
+        background-color: #f6f8fc;
+        color: #8a8fa3;
+    }
+    .light-mode h1 , .light-mode h2 , .light-mode h3, 
+    .light-mode h4 , .light-mode h5 , .light-mode h6 {
+        color: #32333c;
+    }
+    
+    /*dark mode styles*/  
+    .dark-mode .sec{
+    background-color: #252525;
+    color: #fff;
+    }
+    .dark-mode .alt-sec {
+        background-color: #393838;
+        color: #9f9f9f;
+    }
+    .dark-mode h1 , .dark-mode h2 ,.dark-mode h3 , .dark-mode h4 , 
+    .dark-mode h5 , .dark-mode h6 {
+        color: #ccc;
+    }
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@layer utilities {
+    .container-1024 {
+        width: 100%;
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+    .container-700 {
+        width: 100%;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    .container-500 {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    /*emphasized text*/
+    .emphasis {
+        text-decoration: none;
+        font-weight: bold;
+        color: #feb633;
+    }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
+

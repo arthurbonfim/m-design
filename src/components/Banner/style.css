@@ -1,0 +1,42 @@
+.banner {
+    display: flex;
+}
+
+.banner__img {
+    width: 50%;
+   display: flex;
+   justify-content: right;
+}
+
+.banner__heading{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    color: #022144;
+    background-color: #fafbfc;
+    padding: 2rem 16px
+}
+
+.banner__heading h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 0;
+    color: #022144;
+}
+.banner__heading p {
+    margin: 0;
+}
+
+/*Hide the image on screens smaller than 769px*/
+@media (max-width: 768px ) {
+    .banner__img {
+        display: none;
+    }
+    .banner__heading {
+        width: 100%;
+        height: calc(100vh - 80px);
+    }
+}
+

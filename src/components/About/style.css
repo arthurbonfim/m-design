@@ -1,0 +1,26 @@
+.about {
+    padding: 5rem 16px;
+    text-align: center;
+}   
+
+.about h2::after {
+    content: "";
+    width: 100px;
+    display: block;
+    border-bottom: 4px solid #feb633;
+    margin: 16px auto;
+}
+.about__text p {
+    text-align: justify;
+    text-align-last: center;
+}
+
+/*styles for the cards section*/
+.cards-sec {
+    width: 100%;
+    margin: 4rem auto 0;
+    padding: 0 16px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;  
+}
