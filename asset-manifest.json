@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/m-design/static/css/main.57c38600.css",
+    "main.js": "/m-design/static/js/main.7af1f16f.js",
+    "index.html": "/m-design/index.html",
+    "main.57c38600.css.map": "/m-design/static/css/main.57c38600.css.map",
+    "main.7af1f16f.js.map": "/m-design/static/js/main.7af1f16f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57c38600.css",
+    "static/js/main.7af1f16f.js"
+  ]
+}
