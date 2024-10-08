@@ -26,7 +26,7 @@ Welcome to our digital space! With over a decade of experience in the fields of 
 ```
 ```bash
     #Enter the directory
-    $ cd gelateria-project
+    $ cd m-design
 ```
 ```bash
     #Install the dependencies
